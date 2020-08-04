@@ -6,9 +6,6 @@ board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
-output = capture_puts{ display_board(board) } if defined?(display_board)
-rows = output.split("\n")
-
 def display_board(board)
   puts "#{board[0]}  | #{board[1]} | #{board[2]} "
   puts "-----------"
