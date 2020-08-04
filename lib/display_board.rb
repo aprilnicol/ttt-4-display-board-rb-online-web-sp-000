@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-row[0] = O
+row[0] = "O"
 row[1] = "x"
 board = [" ", "| |" , " ", " " , "| |" , " ", " ", "| |" , " "]
 def display_board(board,row)
